@@ -1,5 +1,3 @@
-import { loadData } from './data-loader.js';
-
 export function renderHeader(game) {
   const navLinks = [
     { href: '#overview', label: 'Overview' },
