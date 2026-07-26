@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Windrose Research Hub</title>
   <meta name="description" content="A deep-dive, reliable, and auto-updated research hub for the Windrose pirate survival video game." />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,16 +15,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v=2" />
 </head>
 <body>
   <div id="app">
-    <!-- App is rendered by JavaScript -->
-    <div class="container" style="display:grid;place-items:center;padding:4rem;">
+    <div class="container" style="display:grid;place-items:center;padding:4rem;text-align:center;">
       <div class="loader"></div>
+      <p style="margin-top:1.5rem;color:var(--color-text-muted);">Loading Windrose data...</p>
+      <p id="stuck-message" style="display:none;margin-top:1rem;font-size:0.9rem;">
+        Still spinning? <a href="https://brimdor.github.io/windrose/" onclick="location.reload(true)">Hard refresh</a> or clear your cache.
+      </p>
     </div>
   </div>
 
-  <script type="module" src="assets/js/app.js"></script>
+  <script type="module" src="assets/js/app.js?v=2"></script>
+  <script>
+    setTimeout(() => {
+      const stuck = document.getElementById('stuck-message');
+      if (stuck) stuck.style.display = 'block';
+    }, 4000);
+  </script>
 </body>
 </html>
