@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/main.css?v=3" />
+  <link rel="stylesheet" href="assets/css/main.css?v=4" />
 </head>
 <body>
   <div id="app">
@@ -23,17 +23,33 @@
       <div class="loader"></div>
       <p style="margin-top:1.5rem;color:var(--color-text-muted);">Loading Windrose data...</p>
       <p id="stuck-message" style="display:none;margin-top:1rem;font-size:0.9rem;">
-        Still spinning? <a href="https://brimdor.github.io/windrose/" onclick="location.reload(true)">Hard refresh</a> or clear your cache.
+        Still spinning? <a href="#" id="hard-refresh">Hard refresh</a> or clear your cache.
       </p>
+      <div id="error-message" style="display:none;margin-top:1.5rem;max-width:600px;text-align:left;background:var(--color-surface);border:1px solid var(--color-danger);border-radius:var(--radius-md);padding:var(--space-md);">
+        <strong style="color:var(--color-danger)">Could not start the app.</strong>
+        <pre id="error-detail" style="margin-top:var(--space-sm);font-size:0.8rem;overflow:auto;"></pre>
+      </div>
     </div>
   </div>
 
-  <script type="module" src="assets/js/app.js?v=3"></script>
+  <script type="module" src="assets/js/app.js?v=4"></script>
   <script>
+    document.getElementById('hard-refresh').addEventListener('click', function(e) {
+      e.preventDefault();
+      location.reload(true);
+    });
     setTimeout(() => {
       const stuck = document.getElementById('stuck-message');
       if (stuck) stuck.style.display = 'block';
-    }, 4000);
+    }, 3000);
+    window.addEventListener('error', function(e) {
+      const err = document.getElementById('error-message');
+      const detail = document.getElementById('error-detail');
+      if (err && detail) {
+        err.style.display = 'block';
+        detail.textContent = (e.filename || '') + ':' + (e.lineno || '?') + '\n' + (e.message || String(e.error));
+      }
+    });
   </script>
 </body>
 </html>
