@@ -6,6 +6,7 @@ import urllib.request
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / 'data'
+SITE_DATA_DIR = REPO_ROOT / 'site' / 'data'
 NEWS_URL = 'https://playwindrose.com/news/'
 STEAMDB_URL = 'https://steamdb.info/app/3041230/charts/'
 STEAMCHARTS_URL = 'https://steamcharts.com/app/3041230'
@@ -18,6 +19,18 @@ def save_json(path, data):
     full = DATA_DIR / path
     full.parent.mkdir(parents=True, exist_ok=True)
     full.write_text(json.dumps(data, indent=2))
+    # Mirror into site/data so Pages always has current data
+    site_full = SITE_DATA_DIR / path
+    site_full.parent.mkdir(parents=True, exist_ok=True)
+    site_full.write_text(json.dumps(data, indent=2))
+
+
+def sync_data_to_site():
+    """Ensure site/data is a complete mirror of data/ after any local edits."""
+    import shutil
+    if SITE_DATA_DIR.exists():
+        shutil.rmtree(SITE_DATA_DIR)
+    shutil.copytree(DATA_DIR, SITE_DATA_DIR)
 
 def fetch_text(url):
     try:
@@ -125,6 +138,8 @@ def main():
     update_player_stats()
     regenerate_search_index()
     print("Update complete.")
+    sync_data_to_site()
+    print("Synced data/ to site/data/.")
 
 if __name__ == '__main__':
     main()

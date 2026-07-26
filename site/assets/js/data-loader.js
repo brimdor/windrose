@@ -1,5 +1,5 @@
 export async function loadData() {
-  const base = window.location.pathname.includes('/site/') ? '../data/' : 'data/';
+  const base = 'data/';
   const files = {
     game: 'game-metadata.json',
     gameplay: 'gameplay.json',

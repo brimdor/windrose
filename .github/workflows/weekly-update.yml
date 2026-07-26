@@ -23,7 +23,9 @@ jobs:
           python-version: '3.12'
 
       - name: Run data fetch script
-        run: python scripts/fetch_windrose_data.py
+        run: |
+          python scripts/fetch_windrose_data.py
+          ls -R ./site/data
 
       - name: Check for changes and commit
         run: |

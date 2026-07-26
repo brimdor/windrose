@@ -21,6 +21,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync data into site
+        run: |
+          rm -rf ./site/data
+          cp -r ./data ./site/data
+          ls -R ./site/data
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
