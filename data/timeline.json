@@ -1,0 +1,80 @@
+[
+  {
+    "date": "2025-03",
+    "event": "Original game announced as Crosswind",
+    "source": "https://thegameswiki.com/windrose/wiki/crosswind",
+    "note": "Free-to-play survival MMO in alternate Age of Piracy"
+  },
+  {
+    "date": "2025-04",
+    "event": "First devblog",
+    "source": "https://thegameswiki.com/windrose/wiki/kraken-express",
+    "note": "Series of devblogs ran through August 2025"
+  },
+  {
+    "date": "2025-08",
+    "event": "Crosswind alpha feedback leads to pivot",
+    "source": "https://www.gamespot.com/articles/windrose-dev-talks-black-flag-inspiration-and-why-dropping-free-to-play-was-best/1100-6539390/",
+    "note": "Team decides MMO scope too risky; pivots to focused premium co-op survival"
+  },
+  {
+    "date": "2025-12",
+    "event": "Studio renamed from Crosswind Crew to Windrose Crew",
+    "source": "https://thegameswiki.com/windrose/wiki/kraken-express",
+    "note": "Reflecting game rebranding"
+  },
+  {
+    "date": "2026-02",
+    "event": "Playable demo gains traction on Steam",
+    "source": "https://www.thegamer.com/windrose-pirate-adventure-pve-survival-game-demo/",
+    "note": "Demo covered by press"
+  },
+  {
+    "date": "2026-04-14",
+    "event": "Windrose launches in Early Access",
+    "source": "https://store.steampowered.com/app/3041230/Windrose/",
+    "note": "Initial peak concurrent 69,544 (GamesRadar)"
+  },
+  {
+    "date": "2026-04-16",
+    "event": "500,000 copies sold in 48 hours",
+    "source": "https://www.gosugamers.net/entertainment/news/78297-windrose-gets-more-than-100-000-concurrent-players-with-500-000-copies-sold-in-48-hours",
+    "note": "Announced on Steam, Discord, social media"
+  },
+  {
+    "date": "2026-04-19",
+    "event": "1,000,000 copies sold; 200,000+ concurrent players",
+    "source": "https://www.gosugamers.net/entertainment/news/78299-windrose-sells-over-one-million-copies-surpasses-200-000-players-on-steam",
+    "note": "Milestone reached in 6 days"
+  },
+  {
+    "date": "2026-04-19",
+    "event": "Steam all-time concurrent peak 222,134",
+    "source": "https://steamdb.info/app/3041230/charts/",
+    "note": "Per SteamDB"
+  },
+  {
+    "date": "2026-04-30",
+    "event": "1,500,000 copies sold",
+    "source": "https://www.gamesradar.com/games/open-world/windrose-devs-show-off-their-favorite-steam-reviews-as-the-hit-pirate-survival-game-crosses-1-5-million-copies-sold-i-got-touched-by-a-big-crab/",
+    "note": "Dev favorite Steam reviews shared"
+  },
+  {
+    "date": "2026-05-14",
+    "event": "2,000,000 copies sold",
+    "source": "https://www.reddit.com/r/pcgaming/comments/1td765k/windrose_2000000_copies_sold_huge_milestone_for/",
+    "note": "Official milestone thread on Reddit"
+  },
+  {
+    "date": "2026-06",
+    "event": "Ongoing Early Access patches and roadmap updates",
+    "source": "https://www.gamewatcher.com/windrose-patch-notes-latest-full-update-history-and-roadmap-for-2026",
+    "note": "Ashlands biome teased; QoL and building pieces added"
+  },
+  {
+    "date": "2026-07",
+    "event": "Continued updates; dedicated server and modding support maturing",
+    "source": "https://playwindrose.com/dedicated-server-support",
+    "note": "Official server support page"
+  }
+]

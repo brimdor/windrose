@@ -1,0 +1,380 @@
+[
+  {
+    "category": "Official",
+    "type": "website",
+    "name": "Windrose Official Website",
+    "url": "https://playwindrose.com",
+    "reliability": "primary",
+    "notes": "Official game site with news, FAQ, media kit, store links",
+    "last_checked_iso": "2026-07-26T20:31:20.031993+00:00"
+  },
+  {
+    "category": "Official",
+    "type": "store",
+    "name": "Steam Store Page",
+    "url": "https://store.steampowered.com/app/3041230/Windrose/",
+    "reliability": "primary",
+    "notes": "Steam app 3041230, Early Access release 2026-04-14",
+    "last_checked_iso": "2026-07-26T20:31:20.032062+00:00"
+  },
+  {
+    "category": "Official",
+    "type": "store",
+    "name": "Steam Demo Page",
+    "url": "https://store.steampowered.com/app/4291770/Windrose_Demo/",
+    "reliability": "primary",
+    "notes": "Steam demo app 4291770",
+    "last_checked_iso": "2026-07-26T20:31:20.032070+00:00"
+  },
+  {
+    "category": "Official",
+    "type": "community",
+    "name": "Steam Community Hub",
+    "url": "https://steamcommunity.com/app/3041230",
+    "reliability": "primary",
+    "notes": "Announcements, discussions, patch notes",
+    "last_checked_iso": "2026-07-26T20:31:20.032078+00:00"
+  },
+  {
+    "category": "Official",
+    "type": "store",
+    "name": "Epic Games Store Page",
+    "url": "https://store.epicgames.com/en-US/p/windrose-831c86",
+    "reliability": "primary",
+    "notes": "Epic slug windrose-831c86",
+    "last_checked_iso": "2026-07-26T20:31:20.032084+00:00"
+  },
+  {
+    "category": "Official",
+    "type": "social",
+    "name": "Windrose YouTube Official Playlist",
+    "url": "https://www.youtube.com/playlist?list=PL7vPdoTtz1GJG6d85cCjw92iPaXZc7WdC",
+    "reliability": "primary",
+    "notes": "Official videos",
+    "last_checked_iso": "2026-07-26T20:31:20.032091+00:00"
+  },
+  {
+    "category": "Encyclopedia",
+    "type": "wiki",
+    "name": "Wikipedia - Windrose (video game)",
+    "url": "https://en.wikipedia.org/wiki/Windrose_(video_game)",
+    "reliability": "high",
+    "notes": "General facts, release, developer, publisher",
+    "last_checked_iso": "2026-07-26T20:31:20.032098+00:00"
+  },
+  {
+    "category": "Encyclopedia",
+    "type": "wiki",
+    "name": "Wikidata - Windrose",
+    "url": "https://www.wikidata.org/wiki/Q135056447",
+    "reliability": "high",
+    "notes": "Structured game data",
+    "last_checked_iso": "2026-07-26T20:31:20.032104+00:00"
+  },
+  {
+    "category": "Encyclopedia",
+    "type": "wiki",
+    "name": "TV Tropes - Windrose",
+    "url": "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/Windrose",
+    "reliability": "medium",
+    "notes": "Tropes and narrative elements",
+    "last_checked_iso": "2026-07-26T20:31:20.032110+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "wiki",
+    "name": "TheWindrose.wiki",
+    "url": "https://thewindrose.wiki/",
+    "reliability": "medium",
+    "notes": "Community wiki: ships, combat, crafting",
+    "last_checked_iso": "2026-07-26T20:31:20.032117+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "wiki",
+    "name": "Windrose.wiki (Interactive Map)",
+    "url": "https://windrose.wiki/",
+    "reliability": "medium",
+    "notes": "Interactive map, item DB, build planner",
+    "last_checked_iso": "2026-07-26T20:31:20.032123+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "wiki",
+    "name": "Windrose Wiki Fextralife",
+    "url": "https://windrose.wiki.fextralife.com/Windrose_Wiki",
+    "reliability": "medium",
+    "notes": "Exploration, combat, crafting mechanics",
+    "last_checked_iso": "2026-07-26T20:31:20.032129+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "wiki",
+    "name": "The Games Wiki - Windrose",
+    "url": "https://thegameswiki.com/windrose",
+    "reliability": "medium",
+    "notes": "Ship types, dev history, studio info",
+    "last_checked_iso": "2026-07-26T20:31:20.032135+00:00"
+  },
+  {
+    "category": "Analytics",
+    "type": "stats",
+    "name": "SteamDB - Windrose",
+    "url": "https://steamdb.info/app/3041230/charts/",
+    "reliability": "high",
+    "notes": "Player counts, peaks, patch notes",
+    "last_checked_iso": "2026-07-26T20:31:20.032141+00:00"
+  },
+  {
+    "category": "Analytics",
+    "type": "stats",
+    "name": "Steam Charts - Windrose",
+    "url": "https://steamcharts.com/app/3041230",
+    "reliability": "high",
+    "notes": "Concurrent player history",
+    "last_checked_iso": "2026-07-26T20:31:20.032147+00:00"
+  },
+  {
+    "category": "Analytics",
+    "type": "stats",
+    "name": "Steambase - Windrose Info",
+    "url": "https://steambase.io/games/windrose/info",
+    "reliability": "medium",
+    "notes": "Tags, release, pricing, player stats",
+    "last_checked_iso": "2026-07-26T20:31:20.032153+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "Kotaku - Surprise Steam Hit Windrose",
+    "url": "https://kotaku.com/surprise-steam-hit-windrose-is-the-black-flag-successor-ubisoft-tried-and-failed-to-make-2000688214",
+    "reliability": "high",
+    "notes": "Launch analysis, Black Flag inspiration",
+    "last_checked_iso": "2026-07-26T20:31:20.032159+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GamesRadar - Windrose Launch 88% Positive",
+    "url": "https://www.gamesradar.com/games/open-world/open-world-pirate-survival-game-windrose-launches-to-69-000-steam-players-and-88-percent-positive-reviews-scratches-that-black-flag-itch-in-the-best-way/",
+    "reliability": "high",
+    "notes": "Launch day 69,544 peak concurrent",
+    "last_checked_iso": "2026-07-26T20:31:20.032165+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "TheGamer - Windrose Demo Impressions",
+    "url": "https://www.thegamer.com/windrose-pirate-adventure-pve-survival-game-demo/",
+    "reliability": "medium",
+    "notes": "Pre-launch demo coverage",
+    "last_checked_iso": "2026-07-26T20:31:20.032171+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GameSpot - Windrose Dev Talks Black Flag",
+    "url": "https://www.gamespot.com/articles/windrose-dev-talks-black-flag-inspiration-and-why-dropping-free-to-play-was-best/1100-6539390/",
+    "reliability": "high",
+    "notes": "Pivot from Crosswind free-to-play MMO",
+    "last_checked_iso": "2026-07-26T20:31:20.032177+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "PCGamesN - Patch Notes Updates",
+    "url": "https://www.pcgamesn.com/windrose/update-patch-notes-missing-building-pieces",
+    "reliability": "medium",
+    "notes": "Patch coverage",
+    "last_checked_iso": "2026-07-26T20:31:20.032183+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GameWatcher - Windrose Patch Notes",
+    "url": "https://www.gamewatcher.com/windrose-patch-notes-latest-full-update-history-and-roadmap-for-2026",
+    "reliability": "medium",
+    "notes": "Patch note summaries",
+    "last_checked_iso": "2026-07-26T20:31:20.032190+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "Metacritic - Windrose",
+    "url": "https://www.metacritic.com/game/windrose/",
+    "reliability": "medium",
+    "notes": "Aggregated critic/user reviews",
+    "last_checked_iso": "2026-07-26T20:31:20.032196+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "OpenCritic - Windrose",
+    "url": "https://opencritic.com/game/20409/windrose/reviews",
+    "reliability": "medium",
+    "notes": "Critic reviews",
+    "last_checked_iso": "2026-07-26T20:31:20.032202+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "IGN - Windrose User Reviews",
+    "url": "https://www.ign.com/games/windrose/user-reviews",
+    "reliability": "medium",
+    "notes": "User reviews",
+    "last_checked_iso": "2026-07-26T20:31:20.032208+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "GameSpot - Windrose",
+    "url": "https://www.gamespot.com/games/windrose/",
+    "reliability": "medium",
+    "notes": "Game info and reviews",
+    "last_checked_iso": "2026-07-26T20:31:20.032214+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "NGOHQ Review",
+    "url": "https://www.ngohq.com/2026/04/16/windrose-review/",
+    "reliability": "low",
+    "notes": "Score 8/10",
+    "last_checked_iso": "2026-07-26T20:31:20.032231+00:00"
+  },
+  {
+    "category": "Reviews",
+    "type": "review",
+    "name": "Thumb Culture Review",
+    "url": "https://www.thumbculture.co.uk/windrose-pc-early-access-review",
+    "reliability": "low",
+    "notes": "Early access review",
+    "last_checked_iso": "2026-07-26T20:31:20.032239+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "social",
+    "name": "Reddit - r/crosswind",
+    "url": "https://www.reddit.com/r/crosswind/",
+    "reliability": "medium",
+    "notes": "Original Crosswind community, now Windrose",
+    "last_checked_iso": "2026-07-26T20:31:20.032245+00:00"
+  },
+  {
+    "category": "Community",
+    "type": "social",
+    "name": "Reddit - r/pcgaming Windrose threads",
+    "url": "https://www.reddit.com/r/pcgaming/search/?q=windrose",
+    "reliability": "medium",
+    "notes": "Sales milestone threads",
+    "last_checked_iso": "2026-07-26T20:31:20.032251+00:00"
+  },
+  {
+    "category": "Guides",
+    "type": "guide",
+    "name": "KeenGamer Ship & Naval Combat Guide",
+    "url": "https://www.keengamer.com/articles/guides/windrose-ship-and-naval-combat-guide/",
+    "reliability": "medium",
+    "notes": "Ship progression, cannons, tactics",
+    "last_checked_iso": "2026-07-26T20:31:20.032258+00:00"
+  },
+  {
+    "category": "Guides",
+    "type": "guide",
+    "name": "WindroseWiki Games Guides",
+    "url": "https://windrosewiki.games/guides/",
+    "reliability": "medium",
+    "notes": "Workbench recipes, boss strategies",
+    "last_checked_iso": "2026-07-26T20:31:20.032264+00:00"
+  },
+  {
+    "category": "Guides",
+    "type": "guide",
+    "name": "Akliz Windrose Review/Server Hosting",
+    "url": "https://www.akliz.net/blog/posts/windrose-review",
+    "reliability": "low",
+    "notes": "Review plus server hosting context",
+    "last_checked_iso": "2026-07-26T20:31:20.032270+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "Forbes - Windrose Tripled Steam Players",
+    "url": "https://www.forbes.com/sites/paultassi/2026/04/20/windrose-has-tripled-its-steam-players-in-a-week/",
+    "reliability": "medium",
+    "notes": "Player growth coverage",
+    "last_checked_iso": "2026-07-26T20:31:20.032276+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GosuGamers - 500k in 48h",
+    "url": "https://www.gosugamers.net/entertainment/news/78297-windrose-gets-more-than-100-000-concurrent-players-with-500-000-copies-sold-in-48-hours",
+    "reliability": "medium",
+    "notes": "Sales milestone",
+    "last_checked_iso": "2026-07-26T20:31:20.032283+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GosuGamers - 1M in 6 days",
+    "url": "https://www.gosugamers.net/entertainment/news/78299-windrose-sells-over-one-million-copies-surpasses-200-000-players-on-steam",
+    "reliability": "medium",
+    "notes": "Sales and concurrent player milestone",
+    "last_checked_iso": "2026-07-26T20:31:20.032289+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GamesRadar - 1.5M Copies Sold",
+    "url": "https://www.gamesradar.com/games/open-world/windrose-devs-show-off-their-favorite-steam-reviews-as-the-hit-pirate-survival-game-crosses-1-5-million-copies-sold-i-got-touched-by-a-big-crab/",
+    "reliability": "medium",
+    "notes": "April 30 2026 milestone",
+    "last_checked_iso": "2026-07-26T20:31:20.032295+00:00"
+  },
+  {
+    "category": "Analytics",
+    "type": "newsletter",
+    "name": "Alinea Insight - Windrose Sails Past 1.3M",
+    "url": "https://alineaanalytics.substack.com/p/windrose-sails-past-13m",
+    "reliability": "low",
+    "notes": "Sales + DAU estimates",
+    "last_checked_iso": "2026-07-26T20:31:20.032301+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "IndieGame.com - Launch and Crosswind History",
+    "url": "https://indiegame.com/en/archives/25773",
+    "reliability": "medium",
+    "notes": "Pivot from Crosswind PvP MMO",
+    "last_checked_iso": "2026-07-26T20:31:20.032307+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "VSG News - Launch Player Count",
+    "url": "https://www.verticalslicegames.com/news/windrose-steam-launch-player-count-kraken-express-survival",
+    "reliability": "low",
+    "notes": "Launch stats",
+    "last_checked_iso": "2026-07-26T20:31:20.032313+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "GamingBolt - Early Access Review",
+    "url": "https://gamingbolt.com/windrose-early-access-review-a-pirates-life-for-me",
+    "reliability": "low",
+    "notes": "Review",
+    "last_checked_iso": "2026-07-26T20:31:20.032320+00:00"
+  },
+  {
+    "category": "Press",
+    "type": "article",
+    "name": "CarryLord Roadmap 2026",
+    "url": "https://carrylord.com/windrose/roadmap-2026/",
+    "reliability": "low",
+    "notes": "Roadmap summary, no PvP",
+    "last_checked_iso": "2026-07-26T20:31:20.032326+00:00"
+  }
+]

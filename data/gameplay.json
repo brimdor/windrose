@@ -1,0 +1,53 @@
+{
+  "core_loops": [
+    "Survival",
+    "Crafting",
+    "Building",
+    "Naval exploration",
+    "Land combat",
+    "Naval combat",
+    "Boss encounters",
+    "Co-op multiplayer"
+  ],
+  "setting": "Alternate Age of Piracy",
+  "world_type": "Procedural open world",
+  "combat_style": "Third-person, souls-lite style",
+  "pvp": false,
+  "coop": {
+    "min_players": 1,
+    "max_players": 4,
+    "optional": true,
+    "dedicated_servers": true
+  },
+  "key_features": [
+    "Procedural open-world islands and seas",
+    "Gathering, crafting, and base building",
+    "Ship building and customization",
+    "Land and sea boss fights",
+    "Solo or co-op PvE",
+    "Faction towns and NPC interactions (Tortuga mentioned in guides)"
+  ],
+  "estimated_story_length_hours": "50-70 hours per official Steam description",
+  "known_biomes": [
+    "Starting tropical/archipelago biome",
+    "Ashlands biome (roadmap/confirmed future)"
+  ],
+  "notable_mechanics": [
+    {
+      "name": "Shipwright's Workshop",
+      "purpose": "Build and upgrade ships"
+    },
+    {
+      "name": "Workbench",
+      "purpose": "Crafting recipes Lv1-Lv3"
+    },
+    {
+      "name": "Wharf",
+      "purpose": "Moor and manage ships"
+    },
+    {
+      "name": "Naval combat",
+      "purpose": "Cannons (e.g., 36-Pounder), positioning, chain shot, boarding"
+    }
+  ]
+}

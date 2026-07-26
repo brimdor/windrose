@@ -1,0 +1,61 @@
+{
+  "last_updated": "2026-07-26T20:31:56.008878+00:00",
+  "confirmed": [
+    {
+      "feature": "Ashlands biome",
+      "status": "confirmed",
+      "expected": "2026",
+      "source": "https://www.gamebrief.net/blog/windrose-early-access-roadmap-2026-what-is-coming"
+    },
+    {
+      "feature": "New ships",
+      "status": "confirmed",
+      "expected": "2026",
+      "source": "https://www.gamebrief.net/blog/windrose-early-access-roadmap-2026-what-is-coming"
+    },
+    {
+      "feature": "New bosses",
+      "status": "confirmed",
+      "expected": "2026",
+      "source": "https://www.gamebrief.net/blog/windrose-early-access-roadmap-2026-what-is-coming"
+    },
+    {
+      "feature": "50+ quality-of-life changes",
+      "status": "confirmed",
+      "expected": "2026",
+      "source": "https://www.gamesomg.com/windrose-roadmap/"
+    },
+    {
+      "feature": "40+ new build pieces",
+      "status": "shipped",
+      "expected": "June 2026",
+      "source": "https://osrsguru.com/guides/windrose/windrose-early-access-update-guide-2026.html"
+    }
+  ],
+  "speculative": [
+    {
+      "feature": "1.0 full release",
+      "status": "estimated",
+      "expected": "late 2027 to 2028",
+      "source": "https://www.gamebrief.net/blog/windrose-early-access-roadmap-2026-what-is-coming"
+    },
+    {
+      "feature": "Console ports (PS5/Xbox)",
+      "status": "post-1.0 interest",
+      "expected": "after PC 1.0",
+      "source": "https://games.gg/news/windrose-console-release-ps5-xbox/"
+    }
+  ],
+  "not_planned": [
+    {
+      "feature": "PvP",
+      "status": "explicitly not planned",
+      "source": "https://carrylord.com/windrose/roadmap-2026/"
+    },
+    {
+      "feature": "Free-to-play model",
+      "status": "dropped in pivot",
+      "source": "https://www.gamespot.com/articles/windrose-dev-talks-black-flag-inspiration-and-why-dropping-free-to-play-was-best/1100-6539390/"
+    }
+  ]
+}

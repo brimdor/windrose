@@ -1,0 +1,48 @@
+{
+  "title": "Windrose",
+  "tagline": "A survival adventure in the Age of Piracy",
+  "genres": [
+    "Survival",
+    "Adventure",
+    "Action",
+    "RPG",
+    "Early Access",
+    "Indie"
+  ],
+  "mode": "PvE co-op (1-4 players, optional co-op)",
+  "developer": "Kraken Express",
+  "publisher": "Pocketpair Publishing (Japan)",
+  "distributor": "Kraken Express",
+  "franchise": null,
+  "original_name": "Crosswind",
+  "platforms": [
+    "Microsoft Windows"
+  ],
+  "stores": {
+    "Steam": {
+      "url": "https://store.steampowered.com/app/3041230/Windrose/",
+      "app_id": "3041230"
+    },
+    "Epic": {
+      "url": "https://store.epicgames.com/en-US/p/windrose-831c86",
+      "slug": "windrose-831c86"
+    }
+  },
+  "demo": {
+    "Steam": "https://store.steampowered.com/app/4291770/Windrose_Demo/",
+    "app_id": "4291770"
+  },
+  "official_website": "https://playwindrose.com",
+  "official_news": "https://playwindrose.com/news",
+  "media_kit": "https://playwindrose.com/media-kit",
+  "dedicated_server_support": "https://playwindrose.com/dedicated-server-support",
+  "faq": "https://playwindrose.com/faq",
+  "early_access_release": "2026-04-14",
+  "early_access_duration_estimate": "around 18 months (developer estimate)",
+  "full_release_target": "late 2027 to 2028 (unofficial analyst estimates)",
+  "engine": "Unreal Engine (inferred from press coverage)",
+  "team_size": "approximately 60 people plus occasional outsourced work",
+  "studio_location": "Tashkent, Uzbekistan",
+  "producer": "Philip Molodkovets",
+  "last_updated_iso": "2026-07-26T20:30:46.838746+00:00"
+}
