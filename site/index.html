@@ -15,7 +15,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/main.css?v=4" />
+  <link rel="stylesheet" href="assets/css/main.css?v=5" />
+  <style>
+    .diag { margin-top: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted); }
+    .diag.error { color: var(--color-danger); }
+    .diag pre { text-align: left; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-sm); font-size: 0.8rem; max-width: 90vw; overflow: auto; }
+  </style>
 </head>
 <body>
   <div id="app">
@@ -25,31 +30,55 @@
       <p id="stuck-message" style="display:none;margin-top:1rem;font-size:0.9rem;">
         Still spinning? <a href="#" id="hard-refresh">Hard refresh</a> or clear your cache.
       </p>
-      <div id="error-message" style="display:none;margin-top:1.5rem;max-width:600px;text-align:left;background:var(--color-surface);border:1px solid var(--color-danger);border-radius:var(--radius-md);padding:var(--space-md);">
-        <strong style="color:var(--color-danger)">Could not start the app.</strong>
-        <pre id="error-detail" style="margin-top:var(--space-sm);font-size:0.8rem;overflow:auto;"></pre>
+      <div id="error-message" class="diag error" style="display:none;">
+        <strong>Could not start the app.</strong>
+        <pre id="error-detail"></pre>
+      </div>
+      <div id="diag" class="diag" style="display:none;">
+        <pre id="diag-detail"></pre>
       </div>
     </div>
   </div>
 
-  <script type="module" src="assets/js/app.js?v=4"></script>
   <script>
+    function showError(label, detail) {
+      const box = document.getElementById('error-message');
+      const pre = document.getElementById('error-detail');
+      if (box && pre) {
+        box.style.display = 'block';
+        pre.textContent = label + '\n' + detail;
+      }
+    }
+
+    function showDiag(text) {
+      const box = document.getElementById('diag');
+      const pre = document.getElementById('diag-detail');
+      if (box && pre) {
+        box.style.display = 'block';
+        pre.textContent = (pre.textContent || '') + text + '\n';
+      }
+    }
+
     document.getElementById('hard-refresh').addEventListener('click', function(e) {
       e.preventDefault();
       location.reload(true);
     });
+
     setTimeout(() => {
       const stuck = document.getElementById('stuck-message');
       if (stuck) stuck.style.display = 'block';
     }, 3000);
+
     window.addEventListener('error', function(e) {
-      const err = document.getElementById('error-message');
-      const detail = document.getElementById('error-detail');
-      if (err && detail) {
-        err.style.display = 'block';
-        detail.textContent = (e.filename || '') + ':' + (e.lineno || '?') + '\n' + (e.message || String(e.error));
-      }
+      showError('Runtime error', (e.filename || '') + ':' + (e.lineno || '?') + '\n' + (e.message || String(e.error)));
     });
+
+    showDiag('Booting app module…');
+    import('./assets/js/app.js?v=5')
+      .then(() => showDiag('app.js loaded OK'))
+      .catch(err => {
+        showError('Failed to load app.js', err.message + '\n' + (err.stack || ''));
+      });
   </script>
 </body>
 </html>
