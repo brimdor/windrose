@@ -26,7 +26,7 @@ async function main() {
       ${renderRoadmap(data.roadmap)}
       ${renderPatches(data.patches)}
       ${renderSources(data.sources)}
-      ${renderGuides(data)}
+      ${renderGuides(data.guides)}
       ${renderSearch(data)}
       <footer class="site-footer">
         <div class="container">
