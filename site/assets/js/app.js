@@ -7,6 +7,7 @@ import { renderTimeline } from './modules/timeline.js';
 import { renderRoadmap } from './modules/roadmap.js';
 import { renderPatches } from './modules/patches.js';
 import { renderSources, initSources } from './modules/sources.js';
+import { renderGuides, initGuides } from './modules/guides.js';
 import { renderSearch, initSearch } from './modules/search.js';
 
 async function main() {
@@ -25,6 +26,7 @@ async function main() {
       ${renderRoadmap(data.roadmap)}
       ${renderPatches(data.patches)}
       ${renderSources(data.sources)}
+      ${renderGuides(data)}
       ${renderSearch(data)}
       <footer class="site-footer">
         <div class="container">
@@ -36,6 +38,7 @@ async function main() {
 
     initHeader();
     initSources();
+    initGuides();
     initSearch(data);
   } catch (err) {
     app.innerHTML = `<div class="container" style="padding:4rem;text-align:center;">

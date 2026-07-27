@@ -1,0 +1,47 @@
+{
+  "title": "Resource Farming Guide",
+  "slug": "resource-farming-guide",
+  "category": "survival",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "All Things How", "url": "https://allthings.how/tag/windrose/", "tier": "medium"},
+    {"name": "BoostMatch Tannin", "url": "https://boostmatch.gg/blog/windrose/articles/how-to-get-tannin-windrose", "tier": "medium"},
+    {"name": "ProfaneEdge Tanning Rack", "url": "https://theprofanedgeek.com/gaming/unlock-use-tanning-rack-windrose/", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Wood & Fiber",
+      "items": [
+        "Use a Stone Axe on regular trees; upgrade to a metal axe for hardwood.",
+        "Flax Fiber is farmed in Seedbeds. Harvest, replant, and expand plots early for a steady linen supply.",
+        "Keep a stockpile of 200+ Wood and 100+ Fiber at your main base for repairs and crafting."
+      ]
+    },
+    {
+      "heading": "Ore & Stone",
+      "items": [
+        "Stone Pickaxe mines Copper; Iron requires a Copper/Iron pickaxe tier.",
+        "Caves and ruins are the best ore sources. Mark them on the map.",
+        "Some islands have open iron deposits; others hide them behind boss unlocks."
+      ]
+    },
+    {
+      "heading": "Leather & Tannin",
+      "items": [
+        "Hunt boars, deer, and predators. Raw hide is processed at the Tanning Rack into Leather.",
+        "Tannin is made from Tree Bark at the Alchemy Table. Divi-Divi trees on Foothills Island are a reliable source.",
+        "Tanned Leather is the gateway to mid-game armor. Prioritize this after unlocking the Foothills."
+      ]
+    },
+    {
+      "heading": "Rare Materials",
+      "items": [
+        "Gunpowder ingredients (sulfur, saltpeter) come from caves and coastal deposits.",
+        "Tumbaga Ingots require specific ruins and are used for high-tier weapons.",
+        "Check community databases for seed-independent resource locations by biome type."
+      ]
+    }
+  ],
+  "tags": ["farming", "resources", "wood", "fiber", "ore", "leather", "tannin", "materials"]
+}

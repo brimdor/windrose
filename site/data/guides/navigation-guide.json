@@ -1,0 +1,45 @@
+{
+  "title": "Navigation & Map Guide",
+  "slug": "navigation-guide",
+  "category": "navigation",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "Windrose Wiki Map Guide", "url": "https://www.windrosewiki.wiki/map/windrose-map", "tier": "medium"},
+    {"name": "LagoFast Interactive Map", "url": "https://www.lagofast.com/en/blog/windrose-interactive-map/", "tier": "medium"},
+    {"name": "Windrose Gaming Tools Map", "url": "https://windrose.gaming.tools/interactive-map", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Map Basics",
+      "items": [
+        "The world is procedurally generated per save. Your islands will differ from other players'.",
+        "Use the map marker/waypoint system to flag resources, bosses, vendors, and points of interest.",
+        "Enable mini-map waypoint tracking in settings so you can sail toward icons without opening the full map."
+      ]
+    },
+    {
+      "heading": "Coordinate System",
+      "items": [
+        "Each location has a coordinate. Share coordinates with friends or note them in a logbook.",
+        "Seeds drive layout. If you want the same world, share the seed value with friends before starting."
+      ]
+    },
+    {
+      "heading": "External Tools",
+      "items": [
+        "Windrose Database (gaming.tools) – seed-based interactive map; upload a save file to auto-detect your seed.",
+        "Community maps – useful for seed-independent POI types (e.g., resource types per biome)."
+      ]
+    },
+    {
+      "heading": "Sailing Tips",
+      "items": [
+        "Use fast travel bells once crafted. They require setup but save huge sailing time.",
+        "Sail with the wind. Fighting headwind wastes supplies and exposes you longer.",
+        "Plot a chain route: hit resource islands on the way to a quest destination."
+      ]
+    }
+  ],
+  "tags": ["map", "navigation", "coordinates", "waypoints", "fast travel", "seed", "sailing"]
+}

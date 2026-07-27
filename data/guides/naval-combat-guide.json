@@ -1,0 +1,43 @@
+{
+  "title": "Naval Combat Guide",
+  "slug": "naval-combat-guide",
+  "category": "naval",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "KeenGamer Naval Combat", "url": "https://www.keengamer.com/articles/guides/windrose-ship-and-naval-combat-guide/", "tier": "high"},
+    {"name": "TheGamer Naval Combat", "url": "https://www.thegamer.com/windrose-complete-guide-to-naval-combat-sink-board-ships/", "tier": "high"},
+    {"name": "GameRant Ship Guide", "url": "https://gamerant.com/windrose-ship-customization-combat-guide-tutorial/", "tier": "high"},
+    {"name": "Deltia's Gaming", "url": "https://deltiasgaming.com/windrose-naval-combat-explained/", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Ammo Types",
+      "items": [
+        "Round Shot – standard hull damage. Default for sinking ships quickly.",
+        "Bar Shot / Chain Shot – damages sails and rigging. Use it first against faster ships to slow them down.",
+        "Grape Shot – anti-crew damage. Softens enemy sailors before boarding.",
+        "Explosive Shot – high damage, slower reload. Best for stationary or broadside exchanges."
+      ]
+    },
+    {
+      "heading": "Tactics",
+      "items": [
+        "Aim for the rear of enemy ships to hit critical weak points and maximize hull damage.",
+        "Focus fire one target until disabled, then move to the next. Splitting fire wastes time.",
+        "If a ship shows a Sword icon, it is ready to board and has stopped firing. Do not sink it if you want loot.",
+        "Kite damaged enemies to repair, then re-engage. Repair kits are your health potions at sea.",
+        "In multi-ship fights, sink the first few and board the last one to avoid boarding under fire."
+      ]
+    },
+    {
+      "heading": "Boarding",
+      "items": [
+        "Park adjacent to the disabled ship and press the prompt key (Space by default).",
+        "Your crew sieges while you fight on deck with sword and pistol. Defeat the required number of sailors to win.",
+        "Loot Naval Supplies, Medical Crates, and Contraband. Contraband sells well to faction vendors for Piastre."
+      ]
+    }
+  ],
+  "tags": ["naval", "ship combat", "cannons", "boarding", "ammo", "tactics", "repair"]
+}

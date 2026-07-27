@@ -1,0 +1,38 @@
+{
+  "title": "Quests & Story Guide",
+  "slug": "quests-guide",
+  "category": "quests",
+  "tier": "medium",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "Moyens: The Bitter Pill", "url": "https://uk.moyens.net/gaming/guides/windrose-guide-how-to-complete-the-bitter-pill-quest/", "tier": "medium"},
+    {"name": "LagoFast Hidden Quests", "url": "https://www.lagofast.com/en/blog/windrose-interactive-map/", "tier": "medium"},
+    {"name": "Steam Community Russian Guide", "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3708153729", "tier": "community"}
+  ],
+  "sections": [
+    {
+      "heading": "Main Story",
+      "items": [
+        "The campaign leads you through Tortuga and surrounding biomes, introducing combat, sailing, and crafting in stages.",
+        "Key early quests unlock the first ship, the Alchemy Table, and access to the Foothills Island.",
+        "Boss quests gate biomes. Defeat the local boss to unlock the next region and its resources."
+      ]
+    },
+    {
+      "heading": "Side Quests",
+      "items": [
+        "Side quests reward gear, recipes, and reputation with factions.",
+        "Some side quests are missable if you progress the main story too far. Talk to every named NPC in Tortuga.",
+        "Treasure maps and riddles lead to buried chests; bring a shovel and expect a fight."
+      ]
+    },
+    {
+      "heading": "Faction & Reputation",
+      "items": [
+        "Factions offer unique vendors and quest lines. Reputation is earned by completing their quests and selling contraband.",
+        "Higher reputation unlocks better gear recipes and discounted prices."
+      ]
+    }
+  ],
+  "tags": ["quests", "story", "tortuga", "bosses", "factions", "reputation", "treasure"]
+}

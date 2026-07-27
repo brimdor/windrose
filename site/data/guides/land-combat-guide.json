@@ -1,0 +1,42 @@
+{
+  "title": "Land Combat Guide",
+  "slug": "land-combat-guide",
+  "category": "combat",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "KeenGamer Combat Guide", "url": "https://www.keengamer.com/articles/guides/windrose-ship-and-naval-combat-guide/", "tier": "high"},
+    {"name": "Mobalytics", "url": "https://mobalytics.gg/gamebase/guides/windrose-beginner-tips", "tier": "medium"},
+    {"name": "games.gg", "url": "https://games.gg/windrose/guides/windrose-beginners-guide/", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Combat Rhythm",
+      "items": [
+        "Attack once or twice, then retreat. Enemies have long wind-ups; learn the tells.",
+        "Use heavy attacks or running attacks as enemies close distance. They deal more stagger and damage.",
+        "Do not hold block continuously. Your block bar drains and breaks, leaving you stunned and vulnerable.",
+        "Dodge sideways for melee, backwards for charged attacks. Rolling into an attack is usually fatal early on."
+      ]
+    },
+    {
+      "heading": "Weapons",
+      "items": [
+        "Cutlass / Sword: balanced speed and range. Good for most enemies.",
+        "Axe: slower, high damage, breaks shields well. Best for heavily armored foes.",
+        "Pistol: mid-range, great for opening fights or finishing fleeing targets. Keep ammo crafted.",
+        "Bow: silent, ammo-efficient. Useful for pulling single enemies from camps."
+      ]
+    },
+    {
+      "heading": "Boss Tips",
+      "items": [
+        "Set a Tent/Bonfire near the arena. Bosses hit hard, and respawn close prevents long corpse runs.",
+        "Eat two buff foods and bring healing items.",
+        "Study phase changes. Most bosses add new attacks at ~50% HP.",
+        "Summon co-op friends if you are stuck. Windrose scales but extra players make positioning easier."
+      ]
+    }
+  ],
+  "tags": ["combat", "melee", "bosses", "weapons", "stamina", "blocking", "dodge"]
+}

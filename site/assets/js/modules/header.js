@@ -6,6 +6,7 @@ export function renderHeader(game) {
     { href: '#roadmap', label: 'Roadmap' },
     { href: '#patches', label: 'Patches' },
     { href: '#sources', label: 'Sources' },
+    { href: '#guides', label: 'Guides' },
     { href: '#search', label: 'Search' },
   ];
 

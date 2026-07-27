@@ -15,11 +15,12 @@ export function renderSearch(data) {
         </div>
 
         <div class="search-filters" id="search-filters">
-          <button class="btn btn-outline active" data-scope="all">All</button>
+          <button class="btn btn-primary active" data-scope="all">All</button>
           <button class="btn btn-outline" data-scope="timeline">Timeline</button>
           <button class="btn btn-outline" data-scope="roadmap">Roadmap</button>
           <button class="btn btn-outline" data-scope="sources">Sources</button>
           <button class="btn btn-outline" data-scope="patches">Patches</button>
+          <button class="btn btn-outline" data-scope="guides">Guides</button>
         </div>
 
         <div class="search-results" id="search-results">
@@ -76,6 +77,12 @@ function buildSearchIndex(data) {
     add('patches', p.title, `${p.date} ${p.version} ${p.title}`, p.source, p.date);
   });
 
+  // Guides
+  (data.guides?.guides || []).forEach(g => {
+    const text = `${g.title} ${g.category} ${g.tags?.join(' ') || ''} ${g.sections?.map(s => `${s.heading} ${s.items?.join(' ')}`).join(' ') || ''}`;
+    add('guides', g.title, text, `#guides`, g.tier);
+  });
+
   // Metadata
   add('overview', data.game?.title || 'Windrose', flattenObject(data.game).join(' '), '#overview', 'metadata');
 
@@ -93,8 +100,12 @@ export function initSearch(data) {
 
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
-      filterButtons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      filterButtons.forEach(b => {
+        b.classList.remove('active', 'btn-primary');
+        b.classList.add('btn-outline');
+      });
+      btn.classList.add('active', 'btn-primary');
+      btn.classList.remove('btn-outline');
       scope = btn.dataset.scope;
       performSearch(input.value);
     });

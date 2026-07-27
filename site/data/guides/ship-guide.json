@@ -1,0 +1,41 @@
+{
+  "title": "Ship Guide",
+  "slug": "ship-guide",
+  "category": "naval",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "IGN Ship Upgrades", "url": "https://www.ign.com/wikis/windrose/How_to_Upgrade_Your_Ship", "tier": "high"},
+    {"name": "GameRant Ship Guide", "url": "https://gamerant.com/windrose-ship-customization-combat-guide-tutorial/", "tier": "high"},
+    {"name": "Deltia's Best Ship Upgrades", "url": "https://deltiasgaming.com/windrose-best-ship-upgrades/", "tier": "medium"},
+    {"name": "Dexerto Best Ship Build", "url": "https://www.dexerto.com/wikis/windrose/best-ship-build-in-windrose/", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Ship Classes",
+      "items": [
+        "Ketch – starter ship. Small cargo and light armament, but fast and cheap to repair.",
+        "Brig – mid-game workhorse. Good balance of speed, hull, and cannon count. Aim for this after the first boss.",
+        "Frigate / Galleon – endgame. Heavy hull, many guns, slow turning. Requires rare materials and a large crew."
+      ]
+    },
+    {
+      "heading": "Upgrades",
+      "items": [
+        "Cannons – the biggest DPS upgrade. Replace starter cannons as soon as you have metal ingots.",
+        "Hull Bracing – reduces damage taken. Hull Bracing: Keelhold is considered the strongest endgame option.",
+        "Sails – speed and maneuverability. Faster sails make kiting and positioning easier.",
+        "Crew quarters – more crew lets you reload and repair faster during long fights."
+      ]
+    },
+    {
+      "heading": "Build Priority",
+      "items": [
+        "Early: repair kits + basic Round Shot stockpile.",
+        "Mid: better cannons, hull bracing, and a Brig.",
+        "Late: specialized ammo (Bar Shot, Grape), reinforced hull, and Frigate/Galleon."
+      ]
+    }
+  ],
+  "tags": ["ships", "upgrades", "ketch", "brig", "frigate", "galleon", "hull", "cannons", "sails"]
+}

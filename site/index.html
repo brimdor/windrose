@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <!-- Styles -->
-  <link rel="stylesheet" href="assets/css/main.css?v=5" />
+  <link rel="stylesheet" href="assets/css/main.css?v=6" />
   <style>
     .diag { margin-top: 1.5rem; font-size: 0.9rem; color: var(--color-text-muted); }
     .diag.error { color: var(--color-danger); }
@@ -74,7 +74,7 @@
     });
 
     showDiag('Booting app module…');
-    import('./assets/js/app.js?v=5')
+    import('./assets/js/app.js?v=6')
       .then(() => showDiag('app.js loaded OK'))
       .catch(err => {
         showError('Failed to load app.js', err.message + '\n' + (err.stack || ''));

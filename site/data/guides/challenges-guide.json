@@ -1,0 +1,39 @@
+{
+  "title": "Challenges & Achievements Guide",
+  "slug": "challenges-guide",
+  "category": "challenges",
+  "tier": "medium",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "Steam Community: Discoveries Guide", "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3707911009", "tier": "community"},
+    {"name": "Windrose Database", "url": "https://windrose.gaming.tools/", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Achievement Categories",
+      "items": [
+        "Story – complete main quests and defeat biome bosses.",
+        "Exploration – discover named locations, shipwrecks, and hidden camps.",
+        "Combat – win naval and land battles under specific conditions.",
+        "Crafting – unlock and craft advanced recipes.",
+        "Collection – gather every type of resource, fish, or unique item."
+      ]
+    },
+    {
+      "heading": "Challenges Worth Prioritizing",
+      "items": [
+        "Fast-travel bell placement challenges often reward utility recipes.",
+        "Cooking achievements give permanent recipe knowledge; cook every dish once.",
+        "Treasure-hunt challenges scale with exploration; do them while questing rather than backtracking."
+      ]
+    },
+    {
+      "heading": "Tracking",
+      "items": [
+        "Open the Quests panel and switch to the Achievements/Challenges tab to see progress and claim rewards.",
+        "Some achievements are account-wide; others are per-save. Check tooltips."
+      ]
+    }
+  ],
+  "tags": ["achievements", "challenges", "exploration", "collection", "story", "combat"]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Beginner's Guide",
+  "slug": "beginners-guide",
+  "category": "beginner",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "Pro Game Guides", "url": "https://progameguides.com/windrose/windrose-beginners-guide-demo-tips-and-tricks/", "tier": "high"},
+    {"name": "KeenGamer", "url": "https://www.keengamer.com/articles/guides/windrose-10-beginner-tips-to-help-you-get-started/", "tier": "high"},
+    {"name": "TheGamer", "url": "https://www.thegamer.com/windrose-beginner-tips-tricks-guide/", "tier": "high"},
+    {"name": "Mobalytics", "url": "https://mobalytics.gg/gamebase/guides/windrose-beginner-tips", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "First Hour Checklist",
+      "items": [
+        "Gather Wood, Stone, and Fiber immediately. You need about 30 Wood and 15 Fiber on you at all times to place a Bonfire and Tent.",
+        "Build a simple Campfire and bedroll to set a respawn point. Dying without one can spawn you across the map.",
+        "Eat two different foods before combat. Food buffs stack (up to two) and give HP regen, stamina, or damage bonuses.",
+        "Craft a Stone Pickaxe and Axe at the Workbench so you can mine ore and harvest larger trees.",
+        "Find a shoreline and build a small dock. Your first ship unlocks progression to other islands."
+      ]
+    },
+    {
+      "heading": "Core Survival Rules",
+      "items": [
+        "Never tank hits. Windrose combat is souls-lite: dodge, block, then counter. Holding block drains stamina fast and leaves you staggered.",
+        "Watch the stamina bar. Sprinting, attacking, blocking, and swimming all drain it. Stop to recover before fights.",
+        "Keep a repair hammer and planks on your ship. Hull damage accumulates quickly in naval fights.",
+        "Use the map marker system. Place waypoints on resources and points of interest so you can return later."
+      ]
+    },
+    {
+      "heading": "Talents & Leveling",
+      "items": [
+        "Press the progression/talent key (default D) to allocate points.",
+        "Early game: prioritize Toughguy tree for stamina and HP. Damage comes later once you can survive mistakes.",
+        "Look for fast-travel unlocks and comfort bonuses in the building/utility trees."
+      ]
+    }
+  ],
+  "tags": ["new player", "day 1", "tips", "tricks", "early game", "survival"]
+}

@@ -8,6 +8,7 @@ export async function loadData() {
     patches: 'patch-index.json',
     roadmap: 'roadmap.json',
     sources: 'sources/bibliography.json',
+    guides: 'guides/index.json',
   };
 
   const entries = await Promise.all(
@@ -18,5 +19,31 @@ export async function loadData() {
     })
   );
 
-  return Object.fromEntries(entries);
+  const data = Object.fromEntries(entries);
+
+  // Load all individual guide files
+  if (data.guides && data.guides.categories) {
+    const guideFiles = [
+      'beginners-guide.json',
+      'crafting-guide.json',
+      'land-combat-guide.json',
+      'naval-combat-guide.json',
+      'ship-guide.json',
+      'navigation-guide.json',
+      'quests-guide.json',
+      'challenges-guide.json',
+      'resource-farming-guide.json',
+      'building-guide.json',
+    ];
+    const guideEntries = await Promise.all(
+      guideFiles.map(async file => {
+        const resp = await fetch(`${base}guides/${file}`);
+        if (!resp.ok) return null;
+        return resp.json();
+      })
+    );
+    data.guides.guides = guideEntries.filter(Boolean);
+  }
+
+  return data;
 }

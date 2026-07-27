@@ -1,0 +1,49 @@
+{
+  "title": "Crafting Guide",
+  "slug": "crafting-guide",
+  "category": "crafting",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "IGN Crafting Recipes", "url": "https://www.ign.com/wikis/windrose/Crafting_Recipes:_Weapons,_Armor,_Ammo,_and_More", "tier": "high"},
+    {"name": "Windrose Wiki Crafting", "url": "https://windrosewiki.games/crafting/", "tier": "medium"},
+    {"name": "GameBrief Crafting Guide", "url": "https://www.gamebrief.net/blog/windrose-crafting-guide-best-recipes", "tier": "medium"},
+    {"name": "BoostMatch Crafting Stations", "url": "https://boostmatch.gg/blog/windrose/articles/windrose-crafting-stations-progression-guide", "tier": "medium"}
+  ],
+  "sections": [
+    {
+      "heading": "Workbench (Tier 1)",
+      "items": [
+        "Stone Pickaxe – Wood + Stone; needed to mine copper and iron ore.",
+        "Stone Axe – Wood + Stone; faster tree harvesting and can chop hardwood.",
+        "Repair Hammer – Wood + Fiber; repairs buildings, ship parts, and equipment.",
+        "Basic Arrows – Wood + Feathers; required if you use a bow early."
+      ]
+    },
+    {
+      "heading": "Weaponsmith & Armor Workshop",
+      "items": [
+        "Upgrade to copper and iron weapons as soon as possible. Copper ore is common in early caves; iron requires deeper ruins or harder islands.",
+        "Linen and Tanned Leather armor are the mid-game benchmarks. Flax grows in seedbeds; leather comes from hunted animals processed at the Tanning Rack.",
+        "Check durability after every major fight. Repairing at the station is cheaper than crafting new gear."
+      ]
+    },
+    {
+      "heading": "Shipwright's Workshop",
+      "items": [
+        "Ship repair kits – keep a stack on board. They are the only mid-fight healing for your hull.",
+        "Cannonballs and Bar Shot – Bar Shot tears sails/rigging; Round Shot damages hull. Match ammo to the encounter.",
+        "Boarding gear – grappling hooks and ladders let you take enemy ships intact for better loot."
+      ]
+    },
+    {
+      "heading": "Alchemy & Cooking",
+      "items": [
+        "Tannin is crafted at the Alchemy Table from Tree Bark. It enables Tanned Leather.",
+        "Gunpowder requires the Millstone and sulfur/saltpeter. Mass-produce it once you have a stable supply line.",
+        "Cooking gives two stacked buffs. Rotate a HP-regen food with a stamina food before combat."
+      ]
+    }
+  ],
+  "tags": ["crafting", "recipes", "workbench", "armor", "weapons", "ship", "alchemy", "cooking"]
+}

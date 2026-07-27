@@ -1,0 +1,39 @@
+{
+  "title": "Building & Base Guide",
+  "slug": "building-guide",
+  "category": "survival",
+  "tier": "high",
+  "author": "Community synthesis",
+  "sources": [
+    {"name": "Pro Game Guides", "url": "https://progameguides.com/windrose/windrose-beginners-guide-demo-tips-and-tricks/", "tier": "high"},
+    {"name": "Steam Community", "url": "https://steamcommunity.com/app/3041230/discussions/", "tier": "community"}
+  ],
+  "sections": [
+    {
+      "heading": "Base Location",
+      "items": [
+        "Pick a shoreline with nearby wood, fiber, and a water source.",
+        "Leave room to expand. You will eventually need multiple crafting stations, storage, and a dock.",
+        "Place your main base near a fast-travel point or plan to build a Fast Travel Bell later."
+      ]
+    },
+    {
+      "heading": "Essential Structures",
+      "items": [
+        "Workbench – the starting point for tools and repairs.",
+        "Campfire + Tent – set respawn points.",
+        "Storage boxes – label by resource type. Hoarding unorganized loot slows progression.",
+        "Dock/Wharf – required for ship upgrades and accessing larger vessels."
+      ]
+    },
+    {
+      "heading": "Defenses",
+      "items": [
+        "Walls and gates protect against roaming mobs. Keep a clear kill zone in front of gates.",
+        "Place a Bonfire inside the compound for night safety and cooking.",
+        "Defensive spikes and traps are useful around the perimeter of advanced bases."
+      ]
+    }
+  ],
+  "tags": ["building", "base", "structures", "storage", "defense", "fast travel"]
+}

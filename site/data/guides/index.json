@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-26",
+  "description": "Curated player guides for Windrose. Reliability tiers: primary, high, medium, community.",
+  "categories": [
+    {
+      "id": "beginner",
+      "name": "Beginner Tips",
+      "icon": "\ud83c\udf31"
+    },
+    {
+      "id": "crafting",
+      "name": "Crafting",
+      "icon": "\ud83d\udd28"
+    },
+    {
+      "id": "combat",
+      "name": "Combat",
+      "icon": "\u2694\ufe0f"
+    },
+    {
+      "id": "naval",
+      "name": "Naval & Ships",
+      "icon": "\u26f5"
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation & Maps",
+      "icon": "\ud83e\udded"
+    },
+    {
+      "id": "quests",
+      "name": "Quests & Story",
+      "icon": "\ud83d\udcdc"
+    },
+    {
+      "id": "challenges",
+      "name": "Challenges & Achievements",
+      "icon": "\ud83c\udfc6"
+    },
+    {
+      "id": "survival",
+      "name": "Survival & Progression",
+      "icon": "\ud83c\udfd5\ufe0f"
+    }
+  ]
+}
