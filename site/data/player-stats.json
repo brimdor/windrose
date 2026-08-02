@@ -36,9 +36,9 @@
     "steamcharts": "https://steamcharts.com/app/3041230"
   },
   "latest_snapshot": {
-    "snapshot_date": "2026-07-27T00:00:51.720174+00:00",
+    "snapshot_date": "2026-08-02T08:13:27.139796+00:00",
     "steamdb_status": "blocked or empty",
     "steamcharts_html_sample": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\n<meta charset=\"utf-8\">\n<title>Windrose - Steam Charts</title>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"description\" content=\"An ongoing analysis of Steam&#39;s player numbers, seeing what&#39;s been played the most.\">\n<meta property=\"twitter:account_id\" content=\"4503599630058963\">\n\n<meta name=\"twitter:site\" content=\"@steamcharts\"><meta name=\"twitter:title\" content=\"Windrose - Steam Charts\"><meta name=\"twitter:url\" content=\"http://steamcharts.com/app/3041230\">\n\n<script async data-cfasync=\"false\" src=\"https://cdn.snigelweb.com/adengine/steamcharts.com/loader.js\" type=\"text/javascript\"></script>\n\n<link href=\"/assets/style-9826f406.css\" rel=\"stylesheet\">\n<script src=\"/assets/script-88db269a.js\"></script>\t\n<link rel=\"shortcut icon\" href=\"/assets/favicon.ico\">\n\n\n</head>\n\n<body>\n\n\n<div id=\"nn_skinl\"></div>\n<div id=\"nn_skinr\"></div>\n\n\n<div id=\"content-wrapper\">\n\t<div id=\"header\">\n\t\t<a id=\"logo\" href=\"/\"><span id=\"logo-steam\">STEAM</span><span id=\"logo-charts\">CHARTS</span></a>\n\t\t&nbsp;&nbsp;\n\t\t<i>An ongoing analysis of Steam's concurrent players.</i>\n\t\t<div style=\"float: right\">\n\t\t\t<form action=\"/search/\" id=\"search\" class=\"inline\" role=\"search\">\n\t\t\t\t<input type=\"text\" name=\"q\" placeholder=\"search games\">\n\t\t\t</form>\n\t\t</div>\n\t</div>\n\t\n\t<h1 id=\"app-title\"><a href=\"\">Windrose</a></h1>\n<div id=\"app-links\">\n\t<a href=\"http://store.steampowered.com/app/3041230/\">Store</a>\n\t|\n\t<a href=\"http://steamcommunity.c",
-    "current_concurrent_steamcharts": 6746
+    "current_concurrent_steamcharts": 4429
   }
 }
