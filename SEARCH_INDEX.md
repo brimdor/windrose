@@ -8,10 +8,10 @@
 - **2027**: data/game-metadata.json, data/roadmap.json
 - **2028**: data/game-metadata.json, data/roadmap.json
 - **20409**: data/sources/bibliography.json
-- **23t06**: data/player-stats.json
 - **25773**: data/sources/bibliography.json
 - **26t20**: data/game-metadata.json, data/player-stats.json, data/roadmap.json, data/sources/bibliography.json
-- **3329**: data/player-stats.json
+- **30t11**: data/player-stats.json
+- **4609**: data/player-stats.json
 - **48h**: data/sources/bibliography.json
 - **500k**: data/sources/bibliography.json
 - **69544**: data/player-stats.json
@@ -1148,4 +1148,4 @@
 - **youtube**: data/sources/bibliography.json
 - **zone**: data/guides/building-guide.json
 
-_Generated: 2026-08-23T06:31:35.648544+00:00_
+_Generated: 2026-08-30T11:05:55.130174+00:00_
