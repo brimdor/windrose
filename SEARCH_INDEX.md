@@ -1,5 +1,6 @@
 # Search Index
 
+- **06t10**: data/player-stats.json
 - **1100**: data/roadmap.json, data/sources/bibliography.json, data/timeline.json
 - **13m**: data/sources/bibliography.json
 - **1td765k**: data/timeline.json
@@ -10,8 +11,7 @@
 - **20409**: data/sources/bibliography.json
 - **25773**: data/sources/bibliography.json
 - **26t20**: data/game-metadata.json, data/player-stats.json, data/roadmap.json, data/sources/bibliography.json
-- **30t11**: data/player-stats.json
-- **4609**: data/player-stats.json
+- **3990**: data/player-stats.json
 - **48h**: data/sources/bibliography.json
 - **500k**: data/sources/bibliography.json
 - **69544**: data/player-stats.json
@@ -1148,4 +1148,4 @@
 - **youtube**: data/sources/bibliography.json
 - **zone**: data/guides/building-guide.json
 
-_Generated: 2026-08-30T11:05:55.130174+00:00_
+_Generated: 2026-09-06T10:08:29.279833+00:00_
